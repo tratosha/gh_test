@@ -26,5 +26,14 @@ This branch has been created on the local workplace by the command
 
     git checkout -b dev1
 
+After this, some text has been added here and a commit to current branch has been made:
 
+    vi README.md
+    git add README.md
+    git commit -m "Added to dev1 branch."
 
+To send the modifications to a new branch on the server, use
+
+    git push --set-upstream origin dev1
+
+After this command, a new branch, named ``dev1`` hs become visible in the web interface. 
